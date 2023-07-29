@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                max-width: 400px;
+                padding: 10px;
+                margin: 100px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <center>
+            <div class="card">
+                <h1>Registration Form</h1>
+            
+
+                <form method="post" action="show.php">
+
+                    <table bgcolor="lightblue">
+
+                        <tr>
+                            <td>First Name:</td>
+                            <td>
+                                <input type="text" name="firstName">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Last Name:</td>
+                            <td>
+                                <input type="text" name="lastName">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Userame:</td>
+                            <td>
+                                <input type="text" name="username">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Password:</td>
+                            <td>
+                                <input type="password" name="password">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gender" value="male">Male
+                                    <br>
+                                <input type="radio" name="gender" value="female">Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Academic Year:</td>
+                            <td>
+                                <select name="academicYear">
+                                    <option value="1st Year">1st Year</option>
+                                    <option value="2nd Year">2nd Year</option>
+                                    <option value="3rd Year">3rd Year</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Eamil:</td>
+                            <td>
+                                <input type="email" name="email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Phone No.:</td>
+                            <td>
+                                <input type="tel" name="phone">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </form>
+
+            </div>
+        </center>
+
+    </body>
+</html>
